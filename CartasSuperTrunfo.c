@@ -27,7 +27,7 @@ int main() {
   //------------------------------
   // Entrada de dados da Carta 1
   //------------------------------
-  printf ("CADASTRO DA CARTA 1\n");
+  printf ("** CADASTRO DA CARTA 1 **\n");
 
   printf("Digite o estado (letra de A a H): ");
   scanf(" %c", &estado1);
@@ -50,12 +50,12 @@ int main() {
   printf("Digite o número de pontos turísticos da cidade: ");
   scanf("%d", &Npontos1);
   
-  printf ("\nCarta 1 cadastrada com sucesso!\n");
+  printf ("** Carta 1 cadastrada com sucesso! **\n");
 
   //------------------------------
   // Entrada de dados da Carta 2
   //------------------------------
-  printf ("CADASTRO DA CARTA 2\n");
+  printf ("\n** CADASTRO DA CARTA 2 **\n");
 
   printf("Digite o estado (letra de A a H): ");
   scanf(" %c", &estado2);
@@ -78,12 +78,12 @@ int main() {
   printf("Digite o número de pontos turísticos da cidade: ");
   scanf("%d", &Npontos2);
   
-  printf ("\nCarta 2 cadastrada com sucesso!\n");  
+  printf ("** Carta 2 cadastrada com sucesso! **\n");  
 
   //-----------------------------
   // Exibição dados da Carta 1
   //-----------------------------
-  printf("--DADOS CADASTRADOS PARA CARTA 1--\n");
+  printf("\n\n** DADOS CADASTRADOS PARA CARTA 1 **\n");
   printf("Estado: %c\n", estado1);
   printf("Código: %s\n", codigo1);  
   printf("Nome da Cidade: %s\n", nomeCidade1);
@@ -95,7 +95,7 @@ int main() {
   //-----------------------------
   // Exibição dados da Carta 2
   //-----------------------------
-  printf("--DADOS CADASTRADOS PARA CARTA 2--\n");
+  printf("\n\n** DADOS CADASTRADOS PARA CARTA 2 **\n");
   printf("Estado: %c\n", estado2);
   printf("Código: %s\n", codigo2);  
   printf("Nome da Cidade: %s\n", nomeCidade2);
@@ -104,7 +104,7 @@ int main() {
   printf("PIB: %.2f\n", PIB2);
   printf("Número de pontos Turísticos: %d\n", Npontos2);
   
-  printf ("--FIM DO PROGRAMA--\n");  
+  printf ("\n** FIM DO PROGRAMA **\n");  
 
 return 0;
 } 
